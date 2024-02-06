@@ -1,69 +1,108 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-body{
-    direction: rtl;
+body {
+  direction: rtl;
 }
-.nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 60px 0px;
-}
-
-.nav .left-section{
-
-}
-.nav .left-section .list{
-    display: flex;
-    list-style-type: none;
-}
-.nav .left-section .list .list-item{
-    padding: 0px 20px;
-}
-.nav .left-section .list .list-item .link{
-    text-decoration: none;
-    font-size: 18px;
-    color: rgb(35, 34, 34);
-    transition: 0.5s;
-    font-size: 16px;
-
-}
-.nav .left-section .list .list-item .link:hover{
-    color: green;
-    font-weight: bold;
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 0px;
 }
 
-.nav .left-section .list .list-item #light{
-    color: green;
-    font-size:  20px;
-    font-weight: bold;
+.nav .left-section {
 }
-.nav .right-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.nav .left-section .list {
+  display: flex;
+  list-style-type: none;
 }
-.nav .right-section .sign{
-    padding-right: 20px;
+.nav .left-section .list .list-item {
+  padding: 0px 20px;
+}
+.nav .left-section .list .list-item .link {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(35, 34, 34);
+  transition: 0.5s;
+  font-size: 16px;
+}
+.nav .left-section .list .list-item .link:hover {
+  color: green;
+  font-weight: bold;
 }
 
-.nav .right-section .sign .login-register{
-    background-color: rgb(46, 119, 237);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
+.nav .left-section .list .list-item #light {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
 }
-.nav .right-section .sign .login-register a{
-    text-decoration: none;
-    color: #ffff;
+.nav .right-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.right-section .search .search-box{
-    padding: 10px 5px;
-    outline: none;
-    border-radius: 5px;
+.nav .right-section .sign {
+  padding-right: 20px;
+}
+
+.nav .right-section .sign .login-register {
+  background-color: rgb(46, 119, 237);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+.nav .right-section .sign .login-register a {
+  text-decoration: none;
+  color: #ffff;
+}
+.right-section .search .search-box {
+  padding: 10px 5px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.section .right img {
+  width: 700px;
+}
+.section .left h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.section .left h4 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section .left p {
+  color: rgb(62, 61, 61);
+  font-size: 18px;
+  margin-top: 10px;
+}
+.section .left .btn-courses {
+  margin-top: 40px;
+  padding: 15px 40px;
+  font-size: 20px;
+  background-color: rgb(46, 119, 237);
+  color: #ffff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.7s;
+  border: 0px;
+}
+.section .left .btn-courses:hover {
+  background-color: #ffff;
+  color: rgb(46, 119, 237);
+  border: 1px solid rgb(46, 119, 237);
 }
